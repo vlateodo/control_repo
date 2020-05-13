@@ -9,5 +9,5 @@ node 'puppet-master' {
   include role::master_server
 }
 node 'node1.local' {
-  include role::web_server
+  include role::app_server
 }
