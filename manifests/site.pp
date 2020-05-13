@@ -8,3 +8,6 @@ node default {
 node 'puppet-master' {
   include role::master_server
 }
+node 'node1.local' {
+  include role::docker
+}
